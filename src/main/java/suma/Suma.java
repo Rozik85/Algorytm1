@@ -13,7 +13,7 @@ public class Suma {
         ArrayList<Integer> array = new ArrayList(size);
 
         for (int i=0; i<size; i++){
-            System.out.println("Podaj lement nr "+i);
+            System.out.println("Podaj element nr "+i);
             array.add(scanner.nextInt());
         }
         System.out.println("Suma = "+ getArraySum(array));
